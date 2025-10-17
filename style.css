@@ -1,0 +1,131 @@
+/* Reset default margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body styling */
+body {
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Navigation table */
+table#nav, table#nav td {
+    border: none;
+}
+
+table:first-of-type {
+    border-collapse: collapse;
+    margin: 20px auto;
+    width: 100%;
+    background-color: #004080;
+    border-radius: 8px;
+}
+
+table:first-of-type td {
+    text-align: center;
+    padding: 10px;
+}
+
+table:first-of-type td a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+}
+
+table:first-of-type td a:hover {
+    background-color: #0066cc;
+    border-radius: 5px;
+}
+
+/* Section tables */
+table[id] {
+    width: 100%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+    background-color: white;
+    border-radius: 8px;
+}
+
+table[id] td {
+    padding: 15px;
+}
+
+/* Headings */
+h1 {
+    font-size: 32px;
+    color: #004080;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+h2 {
+    font-size: 24px;
+    color: #0066cc;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 20px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+/* Paragraphs */
+p {
+    text-align: center;
+    font-size: 16px;
+}
+
+/* Image styling */
+img {
+    border: 2px solid #000;
+    border-radius: 10px;
+    display: block;
+    margin: 10px auto;
+}
+
+/* Lists */
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    text-align: left;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+/* Footer */
+table:last-of-type td {
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    table[id], table:first-of-type {
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 26px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+}
